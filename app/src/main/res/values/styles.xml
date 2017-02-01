@@ -26,8 +26,8 @@
         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
         <item name="alertDialogTheme">@style/ForGlobalTheme</item>
         <item name="android:alertDialogTheme">@style/ForGlobalTheme</item>
-        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
 
     <style name="ForGlobalTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
