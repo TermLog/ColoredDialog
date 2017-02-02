@@ -1,15 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light">
-        <!-- Customize your theme here. -->
-        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
-        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-        <!--<item name="colorAccent">@color/black_overlay</item>-->
-        <!--<item name="colorControlActivated">?attr/colorAccent</item>-->
-    </style>
-
-    <style name="FullscreenTheme" parent="AppTheme">
+    <style name="FullscreenTheme" parent="android:Theme.Holo.Light">
         <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowBackground">@null</item>
@@ -27,20 +18,17 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="colorPrimaryDark">@color/new_linkup_blue_pressed</item>
-        <item name="android:colorPrimaryDark">@color/new_linkup_blue_pressed</item>
         <item name="colorAccent">@color/colorAccentBlack</item>
         <item name="android:colorAccent">@color/colorAccentBlack</item>
     </style>
 
     <style name="GeneralSettings.Blue">
-        <item name="android:colorPrimaryDark">@color/blue_dark</item>
         <item name="colorPrimaryDark">@color/blue_dark</item>
         <item name="colorAccent">@color/blue</item>
         <item name="android:colorAccent">@color/blue</item>
     </style>
 
     <style name="GeneralSettings.Yellow">
-        <item name="android:colorPrimaryDark">@color/yellow_dark</item>
         <item name="colorPrimaryDark">@color/yellow_dark</item>
         <item name="colorAccent">@color/yellow</item>
         <item name="android:colorAccent">@color/yellow</item>
