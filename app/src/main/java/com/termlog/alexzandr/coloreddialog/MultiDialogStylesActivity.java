@@ -1,11 +1,11 @@
 package com.termlog.alexzandr.coloreddialog;
 
-import android.app.AlertDialog;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class AppCompatStyleActivity extends AppCompatActivity {
+public class MultiDialogStylesActivity extends AppCompatActivity {
 
     private AlertDialog mDialog;
 
@@ -19,7 +19,7 @@ public class AppCompatStyleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_holo_style);
+        setContentView(R.layout.activity_multi_dialog_styles);
         findViewById(R.id.show_app_compat_dialog).setOnClickListener(mShowDialog);
         findViewById(R.id.dif_buttons).setOnClickListener(mShowDialog);
         findViewById(R.id.single_theme).setOnClickListener(mShowDialog);

@@ -21,13 +21,34 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
-    <style name="AppTheme.AppCompat" parent="Theme.AppCompat.Light">
+    <style name="GeneralSettings" parent="Theme.AppCompat.Light">
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:colorAccent">@color/colorAccentBlack</item>
+    </style>
+
+    <style name="GeneralSettings.Blue">
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+
+    <style name="GeneralSettings.Yellow">
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="MultiStyles" parent="Theme.AppCompat.Light">
         <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
         <item name="alertDialogTheme">@style/ForGlobalTheme</item>
         <item name="android:alertDialogTheme">@style/ForGlobalTheme</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:colorAccent">@color/colorAccentBlack</item>
     </style>
 
     <style name="ForGlobalTheme" parent="Theme.AppCompat.Light.Dialog.Alert">

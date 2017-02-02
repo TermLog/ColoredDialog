@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
     private final Runnable mStartActivityRunnable = new Runnable() {
         @Override
         public void run() {
-            startActivity(new Intent(MainActivity.this, AppCompatStyleActivity.class));
+            startActivity(new Intent(MainActivity.this, GeneralDialogSettingsActivity.class));
         }
     };
 

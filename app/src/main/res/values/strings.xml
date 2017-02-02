@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ColoredDialog</string>
 
-    <string name="show_holo_dialog">Show Holo Dialog</string>
-    <string name="start_activity">Start AppCompat Activity</string>
+    <string name="show_holo_dialog">Show Dialog</string>
+    <string name="start_activity">Next Activity</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="app_theme">application theme</string>
