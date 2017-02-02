@@ -53,6 +53,7 @@ public class GeneralDialogSettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Utils.onActivityCreateSetTheme(this);
         initView();
     }
 
@@ -84,17 +85,14 @@ public class GeneralDialogSettingsActivity extends AppCompatActivity {
     }
 
     private void setDefaultTheme() {
-        setTheme(R.style.GeneralSettings);
-        initView();
+        Utils.changeToTheme(this, Utils.THEME_DEFAULT);
     }
 
     private void setBlueTheme() {
-        setTheme(R.style.GeneralSettings_Blue);
-        initView();
+        Utils.changeToTheme(this, Utils.THEME_BLUE);
     }
 
     private void setYellowTheme() {
-        setTheme(R.style.GeneralSettings_Yellow);
-        initView();
+        Utils.changeToTheme(this, Utils.THEME_YELLOW);
     }
 }
